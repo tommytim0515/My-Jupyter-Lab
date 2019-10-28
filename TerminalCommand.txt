@@ -1,0 +1,20 @@
+1. When Gnome Shell fucked up by Nvidia GPU
+    killall -3 gnome-shell (by terminal)
+    r and ENTER (by Alt + F2)
+    
+2. Run a .sh script
+    chmod +x /path/to/yourscript.sh (give execute permission to the .sh)
+    /path/to/yourscript.sh
+
+3. Include newly loaded icons to Gnome Tweak Tool
+    sudo chmod 755 -R /usr/share/icons/iconName
+    (and restart gnome shell)
+    
+4. Open serial port with pyserial
+    ports = list(serial.tools.list_ports.comports()) (in python, for searching available ports)
+    for p in ports:
+        print(p)
+     
+    sudo chmod 666 /dev/ttyUSB0
+    
+5. 
