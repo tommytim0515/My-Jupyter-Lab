@@ -17,4 +17,19 @@
      
     sudo chmod 666 /dev/ttyUSB0
     
-5. 
+5. Check the number of the processors
+    nproc
+    
+6. Unzip tar.gz files
+    tar xf <filename>
+  
+7. Process .run file
+    chmod +x some-app.run
+    ./some-app.run
+
+8. Drmemory
+    g++ -g -fno-inline -fno-omit-frame-pointer *.cpp -o myapp
+    drmemory -- /path/to/my/app args to my app
+
+9. Create a link
+    ln -s /path/to/be/linked /direction/of/link
